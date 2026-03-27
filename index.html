@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/assets/bootstrap.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Deadly Descent</title>
+        <link rel="preconnect" href="https://bridge.playgama.com">
+        <link rel="preload" href="Build/PLAYGAMA_79.wasm.unityweb" as="fetch" type="application/wasm" crossorigin>
+        <link rel="preload" href="Build/PLAYGAMA_79.data.unityweb" as="fetch" crossorigin>
+        <link rel="preload" href="Build/PLAYGAMA_79.framework.js.unityweb" as="script">
+        <link rel="stylesheet" href="./custom-loader.css">
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0px;
+            }
+            .fullscreen-canvas {
+                background: #242424;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" class="fullscreen-canvas"></canvas>
+        <script src="./custom-loader.js"></script>
+        <script src="./playgama-bridge-unity.js"></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"bf960fef1270446cbe128a3ae59c28ee","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
